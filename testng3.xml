@@ -10,10 +10,10 @@
 		</run>
  	</groups>
 	<classes>
-		 <class name="Tests.hLoan"/>
+		 <class name="Tests.HLoan"/>
 		 <class name="Tests.Loan"/>
-		 <class name="Tests.loginPage"/>
-		 <class name="Tests.pLoan"/>
+		 <class name="Tests.LoginPage"/>
+		 <class name="Tests.PLoan"/>
 	</classes>
   </test>
   
