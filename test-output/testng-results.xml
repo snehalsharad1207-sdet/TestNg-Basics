@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-14T15:55:27 IST" name="Loan Department" finished-at="2025-12-14T15:55:28 IST" duration-ms="317">
+    <groups>
+      <group name="Smoke">
+        <method signature="LoginPage.TestCase4()[pri:0, instance:Tests.LoginPage@765d7657]" name="TestCase4" class="Tests.LoginPage"/>
+        <method signature="HLoan.TestCase7()[pri:0, instance:Tests.HLoan@b3ca52e]" name="TestCase7" class="Tests.HLoan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-12-14T15:55:27 IST" name="Personal Loan" finished-at="2025-12-14T15:55:27 IST" duration-ms="125">
+      <class name="Tests.Loan">
+        <test-method signature="TestCase1(java.lang.String)[pri:0, instance:Tests.Loan@397fbdb]" started-at="2025-12-14T15:55:27 IST" name="TestCase1" finished-at="2025-12-14T15:55:27 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Link for Loan Departement]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method is-config="true" signature="Aftest()[pri:0, instance:Tests.Loan@397fbdb]" started-at="2025-12-14T15:55:27 IST" name="Aftest" finished-at="2025-12-14T15:55:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftest -->
+      </class> <!-- Tests.Loan -->
+      <class name="Tests.LoginPage">
+        <test-method is-config="true" signature="BeTest()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="BeTest" finished-at="2025-12-14T15:55:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeTest -->
+        <test-method is-config="true" signature="BClass()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="BClass" finished-at="2025-12-14T15:55:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BClass -->
+        <test-method is-config="true" signature="BmMethod()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="BmMethod" finished-at="2025-12-14T15:55:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BmMethod -->
+        <test-method signature="TestCase4()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="TestCase4" finished-at="2025-12-14T15:55:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method is-config="true" signature="BmMethod()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="BmMethod" finished-at="2025-12-14T15:55:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BmMethod -->
+        <test-method signature="TestCase5()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="TestCase5" finished-at="2025-12-14T15:55:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase5 -->
+        <test-method is-config="true" signature="BmMethod()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="BmMethod" finished-at="2025-12-14T15:55:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BmMethod -->
+        <test-method signature="TestCase6()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="TestCase6" finished-at="2025-12-14T15:55:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase6 -->
+        <test-method is-config="true" signature="AClass()[pri:0, instance:Tests.LoginPage@765d7657]" started-at="2025-12-14T15:55:27 IST" name="AClass" finished-at="2025-12-14T15:55:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AClass -->
+      </class> <!-- Tests.LoginPage -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2025-12-14T15:55:28 IST" name="Home Loan" finished-at="2025-12-14T15:55:28 IST" duration-ms="69">
+      <class name="Tests.Loan">
+        <test-method is-config="true" signature="Bsuite()[pri:0, instance:Tests.Loan@397fbdb]" started-at="2025-12-14T15:55:27 IST" name="Bsuite" finished-at="2025-12-14T15:55:27 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bsuite -->
+        <test-method is-config="true" signature="Asuite()[pri:0, instance:Tests.Loan@397fbdb]" started-at="2025-12-14T15:55:28 IST" name="Asuite" finished-at="2025-12-14T15:55:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asuite -->
+      </class> <!-- Tests.Loan -->
+      <class name="Tests.PLoan">
+        <test-method is-config="true" signature="BTest(java.lang.String,java.lang.String)[pri:0, instance:Tests.PLoan@2a5c8d3f]" started-at="2025-12-14T15:55:28 IST" name="BTest" finished-at="2025-12-14T15:55:28 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Link for HLoan and PLoan Department]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345 for HLoan and PLoan Department]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BTest -->
+        <test-method signature="TestCase3()[pri:0, instance:Tests.PLoan@2a5c8d3f]" started-at="2025-12-14T15:55:28 IST" name="TestCase3" finished-at="2025-12-14T15:55:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+      </class> <!-- Tests.PLoan -->
+      <class name="Tests.HLoan">
+        <test-method is-config="true" signature="BClass()[pri:0, instance:Tests.HLoan@b3ca52e]" started-at="2025-12-14T15:55:28 IST" name="BClass" finished-at="2025-12-14T15:55:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BClass -->
+        <test-method signature="TestCase7()[pri:0, instance:Tests.HLoan@b3ca52e]" started-at="2025-12-14T15:55:28 IST" name="TestCase7" finished-at="2025-12-14T15:55:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase7 -->
+        <test-method signature="TestCase8(java.lang.String,java.lang.String)[pri:0, instance:Tests.HLoan@b3ca52e]" started-at="2025-12-14T15:55:28 IST" name="TestCase8" data-provider="getData" finished-at="2025-12-14T15:55:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+        <test-method signature="TestCase8(java.lang.String,java.lang.String)[pri:0, instance:Tests.HLoan@b3ca52e]" started-at="2025-12-14T15:55:28 IST" name="TestCase8" data-provider="getData" finished-at="2025-12-14T15:55:28 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Second User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+        <test-method signature="TestCase8(java.lang.String,java.lang.String)[pri:0, instance:Tests.HLoan@b3ca52e]" started-at="2025-12-14T15:55:28 IST" name="TestCase8" data-provider="getData" finished-at="2025-12-14T15:55:28 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Third User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+      </class> <!-- Tests.HLoan -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

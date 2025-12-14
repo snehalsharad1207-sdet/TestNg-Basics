@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Loan Department">
+	<listeners> 
+		<listener class-name ="Tests.Listeners"/>
+	</listeners>
+		<test name="Personal Loan">
+			  <parameter name="URL" value="Link for Loan Departement"/>
+		      <classes>
+		      	<class name="Tests.Loan">
+			         <methods> <include name="TestCase1"/> </methods> </class>
+		      	<class name="Tests.LoginPage"/>
+		      </classes>
+		</test>
+		
+		<test name="Home Loan">
+		      <parameter name="URL" value="Link for HLoan and PLoan Department"/>
+		      <parameter name="API/Key" value="12345 for HLoan and PLoan Department"/>
+		      <classes>
+			     <class name="Tests.PLoan"/>
+			     <class name="Tests.HLoan">
+			 		     <methods> <exclude name="TestCase9"/> </methods>  </class>   
+		      </classes>  
+		</test>
+
+</suite>
