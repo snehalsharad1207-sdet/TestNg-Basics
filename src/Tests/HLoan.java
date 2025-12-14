@@ -28,7 +28,7 @@ public class HLoan
 	public void TestCase9() 
 	{ 	
 		System.out.println("EMI Paid Successfully !");
-		System.out.println("--------------------------------------------------------------");
+		System.out.println();
 	}
 	
 	@DataProvider

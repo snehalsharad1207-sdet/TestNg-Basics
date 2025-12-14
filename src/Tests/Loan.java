@@ -10,7 +10,7 @@ public class Loan {
 	public void Aftest() 
 	{
 		System.out.println("AfterTest - is used to execute the method at the end of this 'loan' class file.");
-		System.out.println("--------------------------------------------------------------");
+		System.out.println();
 	}
 	
 	@Parameters("URL")
@@ -35,7 +35,7 @@ public class Loan {
 	@BeforeSuite
 	public void Bsuite() 
 	{ 	
-		System.out.println("--------------------------------------------------------------");
+		System.out.println();
 		System.out.println("Before Suite - executed only once before any of the tests in the entire test suite<TestNG> executed");
 		
 	}

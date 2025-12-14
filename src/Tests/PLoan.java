@@ -16,7 +16,7 @@ public class PLoan {
     @BeforeTest
     public void BTest(String url,String Key) 
     {
-    		System.out.println("--------------------------------------------------------------");
+    		System.out.println();
         System.out.println("BeforeTest - Executed only once before all test methods in this 'PLoan' class file");
         System.out.println("URL value from PLoan File:" + url + "  API/Key is : " + Key);
         

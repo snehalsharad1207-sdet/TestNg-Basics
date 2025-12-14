@@ -2,7 +2,6 @@ package Tests;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 public class LoginPage 
@@ -13,7 +12,7 @@ public class LoginPage
 	{
 		System.out.println("AfterClass - will be executed only once after all the test methods within the current class <LoginPage> have completed their execution.");
 		System.out.println();
-		System.out.println("--------------------------------------------------------------");
+		System.out.println();
 	}
 	
 	@BeforeTest
@@ -51,7 +50,7 @@ public class LoginPage
 	public void TestCase6() 
 	{ 	
 		System.out.println("TestCase6 Executed - User Logged Out Successfully !");
-		System.out.println("--------------------------------------------------------------");
+		System.out.println();
 	}	
 	
 	
